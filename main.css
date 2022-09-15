@@ -1,0 +1,71 @@
+.carousel {
+  margin: 0 auto;
+}
+
+.cover {
+    position: relative;
+}@media screen and (min-width: 780px) {
+.cover {
+margin: auto;
+height: 90%;
+width: 90%;
+}
+}
+ 
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: gold;
+}
+
+.slick-dots {
+    bottom: 10px;
+}
+
+.slick-dots li button:before {
+    font-size: 10px;
+    opacity: .25;
+    color: white;
+}
+
+.catch {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3.2rem;
+    color: white;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 4rem;
+}@media screen and (max-width: 1050px) {
+.catch {
+  font-size: 2.4rem;
+}
+}
+
+.subcatch {
+    font-size: 2.4rem;
+}@media screen and (max-width: 1050px) {
+.subcatch {
+  font-size: 1.8rem;
+}
+}
+
+.postModal{
+  height: 575px;
+}
+
+.modal-header, .modal-body {
+  padding: 5px 25px;
+
+}
+.modal-header {
+  border-bottom: 1px solid #ddd;
+}
+
+.btn-outline-warning {
+    color: #000;
+}
